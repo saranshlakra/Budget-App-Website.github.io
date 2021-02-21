@@ -325,10 +325,10 @@ h2 {
     position: relative;
   }
   .add__description {
-    width: 148px;
+    width: 42vw;
   }
   .add__value {
-    width: 70px;
+    width: 19vw;
   }
   .add__container {
     margin: 0 auto;
@@ -349,7 +349,7 @@ h2 {
     color: #fff;
   }
   .budget__title {
-    font-size: 3.6vh;
+    font-size: 3.3vh;
   }
   .budget__value {
     font-weight: 300;
@@ -372,6 +372,11 @@ h2 {
     display: inline;
     width: auto;
     margin: 60px auto;
+  }
+  .budget__income,
+  .budget__expenses {
+    padding: 2vh;
+    text-transform: uppercase;
   }
   .budget__income--text,
   .budget__expenses--text {
