@@ -349,11 +349,11 @@ h2 {
     color: #fff;
   }
   .budget__title {
-    font-size: 22px;
+    font-size: 3.6vh;
   }
   .budget__value {
     font-weight: 300;
-    font-size: 35px;
+    font-size: 7vh;
     text-align: center;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -376,13 +376,13 @@ h2 {
   .budget__income--text,
   .budget__expenses--text {
     float: left;
-    font-size: 18px;
+    font-size: 3vh;
     color: #444;
     margin-top: 2px;
   }
   .budget__income--value,
   .budget__expenses--value {
-    font-size: 18px;
+    font-size: 3vh;
     letter-spacing: 1px;
     float: left;
   }
@@ -390,7 +390,7 @@ h2 {
   .budget__expenses--percentage {
     float: left;
     width: 34px;
-    font-size: 12px;
+    font-size: 2vh;
     padding: 4px 0;
     margin-left: 10px;
   }
@@ -412,5 +412,11 @@ h2 {
   }
   .add__type {
     width: 45px;
+  }
+}
+
+@media (max-height: 400px) {
+  .top {
+    display: none;
   }
 }
