@@ -324,11 +324,19 @@ h2 {
     background-position: center;
     position: relative;
   }
+
+  .add__type {
+    width: 12vw;
+  }
   .add__description {
     width: 42vw;
   }
   .add__value {
     width: 19vw;
+  }
+  .add__btn {
+    font-size: 8.5vw;
+    margin-left: 2vw;
   }
   .add__container {
     margin: 0 auto;
@@ -410,13 +418,6 @@ h2 {
     margin-left: 2%;
     /* float: left; */
     width: 346px;
-  }
-  .add__btn {
-    font-size: 38px;
-    margin-left: 4px;
-  }
-  .add__type {
-    width: 45px;
   }
 }
 
