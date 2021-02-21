@@ -306,3 +306,101 @@ h2 {
 .unpaid:hover .item__description {
   font-weight: 900;
 }
+@media (max-width: 480px) {
+  body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 15px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+  }
+
+  .top {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url(money.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .add__description {
+    width: 312px;
+  }
+  .add__container {
+    margin: 0 auto;
+    text-align: left;
+  }
+  .add {
+    padding: 8px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+  }
+
+  .budget {
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  .budget__title {
+    font-size: 22px;
+  }
+  .budget__value {
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+  .budget__income {
+    margin-bottom: 10px;
+    background-color: #28b9b5;
+  }
+
+  .add__container {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .container {
+    display: inline;
+    width: auto;
+    margin: 60px auto;
+  }
+  .budget__income--text,
+  .budget__expenses--text {
+    float: left;
+    font-size: 18px;
+    color: #444;
+    margin-top: 2px;
+  }
+  .budget__income--value,
+  .budget__expenses--value {
+    font-size: 18px;
+    letter-spacing: 1px;
+    float: left;
+  }
+  .budget__income--percentage,
+  .budget__expenses--percentage {
+    float: left;
+    width: 34px;
+    font-size: 12px;
+    padding: 4px 0;
+    margin-left: 10px;
+  }
+  .income {
+    margin-left: 2%;
+    float: left;
+    width: 346px;
+    margin-right: 50px;
+  }
+  .expenses {
+    margin-left: 2%;
+    /* float: left; */
+    width: 346px;
+  }
+}
+
