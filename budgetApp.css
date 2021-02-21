@@ -36,7 +36,7 @@ body {
 .top {
   height: 40vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url(img2.jpg);
+    url(money.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -325,7 +325,10 @@ h2 {
     position: relative;
   }
   .add__description {
-    width: 312px;
+    width: 148px;
+  }
+  .add__value {
+    width: 70px;
   }
   .add__container {
     margin: 0 auto;
@@ -339,7 +342,7 @@ h2 {
 
   .budget {
     position: absolute;
-    width: 350px;
+    width: 335px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -392,6 +395,7 @@ h2 {
     margin-left: 10px;
   }
   .income {
+    margin-top: 4%;
     margin-left: 2%;
     float: left;
     width: 346px;
@@ -402,5 +406,11 @@ h2 {
     /* float: left; */
     width: 346px;
   }
+  .add__btn {
+    font-size: 38px;
+    margin-left: 4px;
+  }
+  .add__type {
+    width: 45px;
+  }
 }
-
