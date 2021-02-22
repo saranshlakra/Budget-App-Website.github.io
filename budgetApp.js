@@ -153,6 +153,7 @@ let uiController = (function () {
     expPercentageLabel: ".item__percentage",
     container: ".container",
     item: ".item",
+    dispMonth: ".budget__title--month",
   };
   return {
     getInput: function () {
@@ -250,6 +251,30 @@ let uiController = (function () {
       let el = document.getElementById(itemID);
       el.parentNode.removeChild(el);
     },
+
+    displayMonth: function () {
+      var now, year, month, months;
+      now = new Date();
+      months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+      ];
+      month = now.getMonth();
+      year = now.getFullYear();
+      console.log(year);
+      document.querySelector(DOMstrings.dispMonth).textContent =
+        months[month] + ", " + year;
+    },
   };
 })();
 
@@ -337,6 +362,8 @@ let backendController = (function (appCtrl, uiCtrl) {
   return {
     init: function () {
       console.log("HELLO FRIENDS");
+      uiController.displayMonth();
+
       // clickEnter;
       setupEventListners();
     },
